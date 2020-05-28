@@ -51,7 +51,7 @@
 \def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
 \let\endchangemargin=\endlist 
 \newenvironment{mdh1}
-    %Begin environment
+    %Begin environment (this is a change) 
     {
         \begin{changemargin}{0cm}{0cm}
         \begin{bfseries}
